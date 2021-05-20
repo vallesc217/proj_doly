@@ -1,0 +1,21 @@
+# Dolibarr language file - Source file is en_US - salaries
+SALARIES_ACCOUNTING_ACCOUNT_PAYMENT=Akun akuntansi digunakan untuk pihak ketiga pengguna
+SALARIES_ACCOUNTING_ACCOUNT_PAYMENT_Desc=Akun akuntansi khusus yang ditentukan pada kartu pengguna akan digunakan hanya untuk akuntansi Subledger. Yang ini akan digunakan untuk Buku Besar Umum dan sebagai nilai default dari akuntansi Subledger jika akun akuntansi pengguna khusus pada pengguna tidak didefinisikan.
+SALARIES_ACCOUNTING_ACCOUNT_CHARGE=Akun akuntansi secara default untuk pembayaran upah
+Salary=Gaji
+Salaries=Gaji
+NewSalaryPayment=Pembayaran Gaji Baru
+AddSalaryPayment=Tambahkan pembayaran gaji
+SalaryPayment=Pembayaran Gaji
+SalariesPayments=Pembayaran Gaji
+ShowSalaryPayment=Menampilkan Pembayaran Gaji
+THM=Tarif rata-rata per jam
+TJM=Tarif harian rata-rata
+CurrentSalary=Gaji saat ini
+THMDescription=Nilai ini dapat digunakan untuk menghitung biaya waktu yang dihabiskan pada proyek yang dimasukkan oleh pengguna jika proyek modul digunakan
+TJMDescription=Nilai ini saat ini hanya untuk informasi dan tidak digunakan untuk perhitungan apa pun
+LastSalaries=Pembayaran gaji %s terbaru
+AllSalaries=Semua pembayaran gaji
+SalariesStatistics=Statistik gaji
+# Export
+SalariesAndPayments=Gaji dan pembayaran
