@@ -1,0 +1,33 @@
+{
+    "name": "reportico/assetter",
+    "type": "library",
+    "description": "Assets manager for PHP. Allow manage CSS and JS files in website and its dependencies. Also allows refresh cache in browsers by adding revisions of loaded files.",
+    "keywords": ["asset","assets","files manager","manager"],
+    "homepage": "https://github.com/reportico-web/assetter",
+    "license": "MIT",
+    "version": "1.0.0",
+    "authors": [
+        {
+            "name": "Adam Banaszkiewicz",
+            "homepage": "http://adambanaszkiewicz.pl",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": "~5.5 || ~7.0",
+        "requtize/fresh-file": "~0.2"
+    },
+    "require-dev": {
+        "leafo/scssphp": "~0.6",
+        "leafo/lessphp": "~0.5"
+    },
+    "suggest": {
+        "leafo/scssphp": "Allows write styles in SASS and compile files directly to CSS just-in-time.",
+        "leafo/lessphp": "Allows write styles in LESS and compile files directly to CSS just-in-time."
+    },
+    "autoload": {
+        "psr-4": {
+            "Reportico\\Assetter\\": "src/Assetter/"
+        }
+    }
+}
